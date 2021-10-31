@@ -1,24 +1,40 @@
 body {
-    color: rgb(108, 189, 222);
+    color: rgb(71, 172, 214);
     background: #134256;
 }
 
 header {
-    color: #daeef7;
+    color: #ffffff;
 }
 
-figcaption {
-    color: green;
-}
-
-.alt-row {
-    background: #ddd
+nav li {
+    list-style-type: square;
 }
 
 h2 {
-    color:
+    color: rgb(182, 222, 239);
 }
 
- {
-    background: black
+h3 {
+    color: rgb(108, 189, 222);
+}
+
+nav {
+    color: rgb(49, 22, 11);
+}
+
+figcaption {
+    color: rgb(255, 137, 100);
+}
+
+th {
+    color: rgb(218, 238, 247);
+}
+
+.alt-row {
+    background: rgb(11, 37, 48);
+}
+
+caption {
+
 }
