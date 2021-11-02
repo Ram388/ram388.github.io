@@ -20,12 +20,23 @@ footer {
     font-weight: 300;
 }
 
-a:hover {
-    color:rgb(190, 219, 57);
+
+
+a,
+a:link {
+    color:rgb(255,238,2);
 }
 
-a:after {
-    color: #EAEAEA;
+a:visited {
+    color: rgb(255, 190, 0);
+}
+
+a:hover {
+    color:rgb(138,211,244);
+}
+
+a:active {
+    color:rgb(171, 71, 188)
 }
 
 nav li {
