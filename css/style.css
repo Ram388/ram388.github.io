@@ -6,20 +6,35 @@ body {
     font-family: "Open Sans", "Raleway", "Arial", sans-serif;
     font-size: 20px;
     font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 p {
+    background: rgb(12, 33, 45);
     line-height: 1.5;
+    padding: 25px;
 }
 
-header,
-footer {
+table {
+    border: 3px solid rgb(255,238,2);
+}
+
+header {
     color: #ffffff;
     font-family: "Open Sans", "Raleway", "Arial", sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
 
+footer {
+    color: #ffffff;
+    font-family: "Open Sans", "Raleway", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
 
 
 a,
@@ -69,3 +84,5 @@ th {
 .alt-row {
     background: rgb(11, 37, 48);
 }
+
+#box
