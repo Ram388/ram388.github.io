@@ -71,10 +71,6 @@ table {
     grid-gap: 20px;
 }
 
-#more-info {
-    grid-column: 1;
-}
-
 #footer {
     grid-column: 2;
 }
