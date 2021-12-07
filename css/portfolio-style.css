@@ -33,6 +33,15 @@ nav {
   grid-gap: 20px;
 }
 
+@media(max-width: 414px) {
+  #pictures {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+    "pics"
+  }
+}
+
 /*header {
   font-family: "Open Sans", "Quicksand", "Arial", sans-serif;
   font-size: 35px;
