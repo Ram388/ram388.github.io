@@ -11,18 +11,20 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-gap: 10px;
+  grid-template-areas:
+    "about photo contact";
 }
 
 #about {
-  grid-column: 1 / 2;
+  grid-area: about;
 }
 
 #photo {
-  grid-column: 2 / 3;
+  grid-column: photo;
 }
 
 #contact {
-  grid-column: 3 / -1;
+  grid-column: contact;
 }
 
 #pictures {
