@@ -29,8 +29,27 @@ nav {
 
 #pictures {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+}
+
+#bio {
+  margin: auto;
+  padding: 0px;
+  border: 1px solid black;
+  width: 1500px;
+}
+
+#portrait {
+  margin: 25px 500px;
+}
+
+h2{
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 0 200px;
 }
 
 /*header {
