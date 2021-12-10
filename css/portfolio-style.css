@@ -10,7 +10,7 @@ header {
   font-weight: 300;
   margin: 0px auto;
   padding: 0;
-  width: 700px;
+  width: 670px;
 }
 
 nav {
@@ -23,8 +23,8 @@ nav {
   font-family: "Open Sans", "Quicksand", "Arial", sans-serif;
   font-size: 25px;
   font-weight: 300;
-  color: white;
-  background: yellow;
+  color: #ffffff;
+  background: rgb(43, 58, 66);
   margin: 5px auto;
   padding: 10px 30px;
   width: 1080px;
@@ -48,13 +48,13 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  margin: 0px 125px;
+  margin: 0px 100px;
 }
 
 #bio {
   margin: 45px auto;
   padding: 50px;
-  border: 1px solid black;
+  border: 1px solid rgb(43, 58, 66);
   width: 1080px;
   font-family: "Open Sans", "Quicksand", "Arial", sans-serif;
   font-size: 18px;
@@ -70,42 +70,27 @@ nav {
 
 
 h2{
-  border-bottom: 1px solid red;
-  border-top: 1px solid red;
+  border-bottom: 1px solid rgb(255,0,0);
+  border-top: 1px solid rgb(255,0,0);
   margin: 45px auto;
   padding: 0px 500px;
-  width: 50px;
+  width: 80px;
   font-size: 35px;
   font-weight: 300;
-
-  /*
-  border-bottom: 1px solid red;
-  border-top: 1px solid red;
-  font-size: 35px;
-  font-weight: 300;
-  padding: 0px 615px;
-  margin: 40px 20px;
-  width: 1080px;
-  */
 }
 
+a:link:{
+  color: #ffffff;
+  }
 
-
-/*header {
-  font-family: "Open Sans", "Quicksand", "Arial", sans-serif;
-  font-size: 35px;
-  font-weight: 400;
-  padding: 15px;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column: 3 / 5;
+a:visited {
+  color: rgb(189, 212, 222);
 }
 
+a:hover {
+  color:rgb(239, 239, 239);
+}
 
-
-
-
-
-
-
-*/
+a:active {
+  color: rgb(255, 83, 13);
+}
