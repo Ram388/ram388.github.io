@@ -47,8 +47,8 @@ nav {
 #pictures {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  margin: 0px 100px;
+  grid-gap: 35px;
+  margin: 0px 75px;
 }
 
 #bio {
@@ -79,7 +79,7 @@ h2{
   font-weight: 300;
 }
 
-a:link:{
+a:link {
   color: #ffffff;
   }
 
