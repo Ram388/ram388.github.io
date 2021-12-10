@@ -2,8 +2,6 @@
 
 body {
   font-family: "Open Sans", "Quicksand", "Arial", sans-serif;
-  font-size: 25px;
-  font-weight: 300;
 }
 
 nav {
@@ -37,7 +35,10 @@ nav {
   margin: auto;
   padding: 50px;
   border: 1px solid black;
-  width: 1500px;
+  width: 1080px;
+  font-family: "Open Sans", "Quicksand", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 #portrait {
