@@ -35,15 +35,18 @@ nav {
 
 #bio {
   margin: auto;
-  padding: 0px;
+  padding: 50px;
   border: 1px solid black;
   width: 1500px;
 }
 
 #portrait {
-  margin: 25px 500px;
+  margin: 25px 750px;
+  width: 1500px
 }
 
+
+/*
 h2{
   border-bottom: 1px solid red;
   border-top: 1px solid red;
@@ -51,6 +54,8 @@ h2{
   margin-right: 250px;
   padding: 0 200px;
 }
+
+*/
 
 /*header {
   font-family: "Open Sans", "Quicksand", "Arial", sans-serif;
