@@ -49,7 +49,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
-  margin: 0px 75px;
+  margin: 0px 25px;
 }
 
 #bio {
