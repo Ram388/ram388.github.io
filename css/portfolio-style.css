@@ -2,6 +2,7 @@
 
 body {
   font-family: "Open Sans", "Quicksand", "Arial", sans-serif;
+  background: #ffffff;
 }
 
 header {
@@ -74,9 +75,19 @@ h2{
   border-top: 1px solid rgb(255,0,0);
   margin: 45px auto;
   padding: 0px 500px;
-  width: 80px;
+  width: 110px;
   font-size: 35px;
   font-weight: 300;
+}
+
+#contact-info {
+  background: rgb(43, 58, 66);
+  font-family: "Open Sans", "Quicksand", "Arial", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 10px auto;
+  padding: 5px;
+  width: 1000px;
 }
 
 a:link {
